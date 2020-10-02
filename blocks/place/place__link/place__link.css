@@ -5,5 +5,11 @@
     text-align: left;
     color: #fff;
     text-decoration: underline;
-    margin: 0
+    margin: 0;
+    transition: opacity 1s ease;
 }
+
+.place__link:hover {
+    opacity: .7;
+}
+
