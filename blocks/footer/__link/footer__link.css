@@ -5,8 +5,7 @@
     color: #fff;
     text-decoration: none;
     margin: 0 18px 0 0;
-    transition: opacity 1s ease;
-    transition: font-size 1s ease;
+    transition: 1s ease;
 }
 
 .footer__link:last-of-type {

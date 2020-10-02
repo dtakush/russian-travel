@@ -4,8 +4,7 @@
     line-height: 1.75px;
     text-decoration: none;
     color: #fff;
-    transition: opacity 1s ease;
-    transition: font-size 1s ease;
+    transition: 1s ease;
 }
 
 
