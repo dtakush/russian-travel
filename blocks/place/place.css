@@ -1,0 +1,17 @@
+.place {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    margin: 80px auto;
+}
+
+.place:first-of-type {
+    margin: 0 auto;
+}
+
+
+/*.place__border {
+    border: solid 1px red;
+}*/
