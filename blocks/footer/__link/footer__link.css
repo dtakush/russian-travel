@@ -1,11 +1,12 @@
 .footer__link {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 1rem;
+    line-height: 1.12rem;
     color: #fff;
     text-decoration: none;
     margin: 0 18px 0 0;
     transition: opacity 1s ease;
+    transition: font-size 1s ease;
 }
 
 .footer__link:last-of-type {
@@ -16,3 +17,13 @@
     opacity: .7;
 }
 
+
+
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin: 0 0 32px;
+    }
+}

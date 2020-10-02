@@ -1,10 +1,11 @@
 .place {
     max-width: 984px;
     display: grid;
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 48px;
     column-gap: 40px;
     margin: 80px auto;
+    transition: max-width 1s ease;
 }
 
 .place:first-of-type {
@@ -12,6 +13,25 @@
 }
 
 
-/*.place__border {
-    border: solid 1px red;
-}*/
+@media screen and (max-width: 1279px) {
+    .place {
+        max-width: 928px;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        max-width: 720px;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+        margin: 48px auto 0;
+    }
+}
