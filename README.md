@@ -1,7 +1,9 @@
 # Проект 3: Путешествие по России
+________
 
 ### Дополнительно
 Проект о путешествиях по России. Много фото и ссылок на статьи.
 
 
-https://github.com/dtakush/russian-travel 
+### Ссылка на проект:
+https://dtakush.github.io/russian-travel/index.html
