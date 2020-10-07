@@ -4,6 +4,7 @@
     font-size: 1.12rem;
     line-height: 1.37rem;
     text-align: center;
+    color: #fff;
     margin: 32px 0 0;
     transition: font-size 1s ease;
 }

@@ -1,0 +1,32 @@
+.cover__link {
+    text-decoration: none;
+    width: 96%;
+    max-width: 1184px;
+    min-height: 740px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__link {
+        width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__link {
+        min-height: 480px;
+        margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__link {
+        min-height: 200px;
+        margin: 64px auto 0;
+    }
+}

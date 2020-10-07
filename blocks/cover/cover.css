@@ -11,8 +11,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    text-decoration: none;
     transition: width 1s ease;
 }
 

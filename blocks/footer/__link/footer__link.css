@@ -4,12 +4,9 @@
     line-height: 1.12rem;
     color: #fff;
     text-decoration: none;
-    margin: 0 18px 0 0;
+    margin-block-start: 0;
+    margin-block-end: 0; 
     transition: 1s ease;
-}
-
-.footer__link:last-of-type {
-    margin: 0;
 }
 
 .footer__link:hover {
@@ -17,12 +14,9 @@
 }
 
 
-
-
 @media screen and (max-width: 767px) {
     .footer__link {
         font-size: 1.5rem;
         line-height: 1.5rem;
-        margin: 0 0 32px;
     }
 }

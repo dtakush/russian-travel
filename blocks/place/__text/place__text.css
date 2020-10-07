@@ -10,7 +10,7 @@
     transition: max-width 1s ease;
 }
 
-.place__text:last-of-type {
+.place__text:last-child {
     margin: 0 auto;
 }
 
